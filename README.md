@@ -6,14 +6,13 @@ For 40Digits, Eta serves as our build script for internal projects. The build sc
 
 Eta includes the following tools, tasks, and workflows:
 
-- [Browserify](http://browserify.org/) (with [browserify-shim](https://github.com/thlorenz/browserify-shim))
+- [Browserify](http://browserify.org/) (with [browserify-shim](https://github.com/thlorenz/browserify-shim) + [EJS Templating](https://github.com/unfold/browserify-ejs))
 - [SASS](http://sass-lang.com/) (libsass with [source maps](https://github.com/sindresorhus/gulp-ruby-sass#sourcemap), [autoprefixer](https://github.com/sindresorhus/gulp-autoprefixer), and [combine media-queries](https://www.npmjs.com/package/gulp-combine-mq))
 - [Image optimization](https://www.npmjs.com/package/gulp-imagemin)
 - [Sprite generation](https://www.npmjs.com/package/css-sprite)
 - [Custom Icon Font generation](https://www.npmjs.com/package/gulp-iconfont)
 - Error handling in the console [and in Notification Center](https://github.com/mikaelbr/gulp-notify)
 - Compression task for production builds (CSS + JS)
-- [EJS Templating](https://github.com/unfold/browserify-ejs)
 
 ## Requirements
 
