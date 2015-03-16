@@ -48,13 +48,8 @@ There is also a `production` task you can run with `gulp production`, which will
 ## Configuration
 All paths and task settings have been abstracted into a centralized config object in `_gulp/config.js`. Adapt the paths and settings to the structure and needs of your project. 
 
-Depending on whether you're utilizing sass or scss, you may need to make an adjustment on the format. `sass` or `scss` are your options.
-
-```js
-var _processor = {
-  format: 'scss'
-};
-```
+## Documentation
+Visit our wiki for [detailed documentation on features and support](https://github.com/40Digits/gulp-starter/wiki).
 
 ## Troubleshooting
 If you are running into canvas errors, please review the [installation guide](https://github.com/Automattic/node-canvas/wiki/installation---osx) for canvas. 
