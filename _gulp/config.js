@@ -1,7 +1,7 @@
 // Paths
 var assetsDir = './assets',
-		sourceDir = './_src',
-		appDir    = './';
+	sourceDir = './_src',
+	appDir    = './';
 
 // Source Directory
 var _source = {
