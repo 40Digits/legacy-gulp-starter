@@ -22,4 +22,7 @@ module.exports = {
 	// getting jquery from the CDN version which exposes '$' globally
 	// now use require('jquery') in your modules
 	'jquery': { 'exports': 'global:$' }
+
+	// sample plugin that needs to be shim'd
+	// '../lib/jquery.superOld.js': { 'depends': { 'jquery': null } }
 }
