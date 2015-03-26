@@ -13,7 +13,12 @@ module.exports = {
 		'body.anotherTemplate': ['./this_one', '!./not_this_one']
 	*/
 	selectors: {
-		'div.module':   ['./modules/sampleModule'],
-		'div.sample':   ['./views/sampleView']
+
+		// defaults
+		'html.lt-ie10':        ['./lib/polyfill.object.keys', './lib/polyfill.array.forEach'],
+
+		// samples
+		'div.module':          ['./modules/sampleModule'],
+		'div.sample':          ['./views/sampleView']
 	}
 };
