@@ -16,6 +16,7 @@ module.exports = {
 
 		// defaults
 		'html.lt-ie10':        ['./lib/polyfill.object.keys', './lib/polyfill.array.forEach'],
+		'.mqsync-responsive':  ['./modules/responsiveImages'],
 
 		// samples
 		'div.module':          ['./modules/sampleModule'],
