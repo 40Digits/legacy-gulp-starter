@@ -1,4 +1,11 @@
 ## Changelog
+**03/31/2015**
+* Updated MQ Sync along with necessary modules and removed unecessary ones.
+* Updated JS Breakpoints Sass module to setup the media query order for MQ Sync.
+* Added a shim file to easily use plugins that don't use CommonJS and updated package.json to use it.
+* Moving `$.refresh`, `{}.keys`, and `[].forEach` polyfills from main.js to their own modules.
+* Adding some test stuff to index.php
+
 **03/15/2015**
 * Added in Wysiwyg style export to Wordpress editor.
 * Grouped sass files for better usability.
