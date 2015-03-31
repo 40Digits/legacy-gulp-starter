@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html class="no-js">
+<!--[if lte IE 9]><html class="no-js lt-ie10"><![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js"><!--<![endif]-->
 
 <head>
 	<meta charset="utf-8" />
@@ -24,10 +25,14 @@
 		<i class="symbol-two"></i>
 	</div>
 
+	<div class="mqsync-responsive"></div>
+
 	<footer>
 
 	</footer>
 
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="assets/js/main.js"></script>
 </body>
 
 </html>
