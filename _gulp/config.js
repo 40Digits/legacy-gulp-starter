@@ -12,7 +12,8 @@ var _source = {
 	styles:   sourceDir + '/sass/**/*.{sass,scss}',
 	symbols:  sourceDir + '/symbols/*.svg',
 	tpl:      sourceDir + '/templates/',
-	php:      appDir + '**/*.php'
+	php:      appDir + '**/*.php',
+	html:      appDir + '**/*.html'
 };
 
 // Assets Directory
@@ -99,6 +100,9 @@ module.exports = {
 	},
 	php: {
 		src: _source.php
+	},
+	html: {
+		src: _source.html
 	},
 	watch: {
 		src: _source.root,
