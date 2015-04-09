@@ -1,4 +1,4 @@
-/* line 24, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 24, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -8,11 +8,11 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
   vertical-align: baseline;
   background: transparent; }
 
-/* line 35, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 35, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
   display: block; }
 
-/* line 39, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 39, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -22,35 +22,35 @@ html {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important; }
 
-/* line 48, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 48, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 body {
   line-height: 1; }
 
-/* line 54, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 54, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 *, *:before, *:after {
   position: relative;
   -webkit-box-sizing: inherit;
           box-sizing: inherit; }
   @media (max-width: 959px) {
-    /* line 60, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+    /* line 60, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
     * *, *:before *, *:after * {
       -webkit-tap-highlight-color: transparent; } }
 
-/* line 68, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 68, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 img, object, embed {
   max-width: 100%;
   height: auto; }
 
-/* line 73, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 73, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 blockquote, q {
   quotes: none; }
 
-/* line 80, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 80, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 blockquote:before, blockquote:after, q:before, q:after {
   content: '';
   content: none; }
 
-/* line 85, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 85, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 a {
   margin: 0;
   padding: 0;
@@ -58,153 +58,153 @@ a {
   vertical-align: baseline;
   background: transparent; }
 
-/* line 93, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 93, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 del {
   text-decoration: line-through; }
 
-/* line 97, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 97, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 abbr[title], dfn[title] {
   border-bottom: 1px dotted;
   cursor: help; }
 
-/* line 103, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 103, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 i, em {
   font-style: italic; }
 
-/* line 108, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 108, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 b, strong {
   font-weight: bold; }
 
-/* line 112, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 112, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019"; }
 
-/* line 116, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 116, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
   font-size: inherit;
   font: 100%; }
 
-/* line 123, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 123, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 th {
   font-weight: bold;
   vertical-align: bottom; }
 
-/* line 128, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 128, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 td {
   font-weight: normal;
   vertical-align: top; }
 
-/* line 134, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 134, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 input, select {
   vertical-align: middle; }
 
-/* line 138, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 138, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 input[type=search] {
   -webkit-appearance: textfield;
   -webkit-box-sizing: content-box; }
-  /* line 144, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+  /* line 144, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
   input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration, input[type=search]::-webkit-search-results-button, input[type=search]::-webkit-search-results-decoration {
     -webkit-appearance: none; }
 
-/* line 149, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 149, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
-/* line 158, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 158, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 button, input, select, textarea {
   font-family: inherit;
   font-size: 100%;
   margin: 0; }
 
-/* line 165, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 165, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative; }
 
-/* line 171, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 171, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 sup {
   top: -0.5em; }
 
-/* line 175, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 175, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 sub {
   bottom: -0.25em; }
 
-/* line 179, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 179, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 mark {
   background: #ff0;
   color: #000; }
 
-/* line 184, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 184, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   white-space: pre-line;
   word-wrap: break-word; }
 
-/* line 194, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 194, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 pre, code, kbd, samp {
   font-family: monospace,
 	sans-serif; }
 
-/* line 199, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+/* line 199, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
 .cf, .clear, .clearfix, .gform_wrapper .ginput_complex, .gform_wrapper .ginput_complex .ginput_full {
   zoom: 1; }
-  /* line 202, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+  /* line 202, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
   .cf:before, .clear:before, .clearfix:before, .gform_wrapper .ginput_complex:before, .gform_wrapper .ginput_complex .ginput_full:before, .cf:after, .clear:after, .clearfix:after, .gform_wrapper .ginput_complex:after, .gform_wrapper .ginput_complex .ginput_full:after {
     content: "\0020";
     display: block;
     height: 0;
     overflow: hidden; }
-  /* line 208, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_reset.scss */
+  /* line 208, /Dev-Projects/Forty-Eta/_src/sass/base/_reset.scss */
   .cf:after, .clear:after, .clearfix:after, .gform_wrapper .ginput_complex:after, .gform_wrapper .ginput_complex .ginput_full:after {
     clear: both; }
 
 @media (max-width: 29.9375em) {
-  /* line 15, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_js-breakpoints.scss */
+  /* line 15, /Dev-Projects/Forty-Eta/_src/sass/helpers/_js-breakpoints.scss */
   head {
     font-family: 'mq-tiny'; } }
 
 @media (min-width: 30em) {
-  /* line 15, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_js-breakpoints.scss */
+  /* line 15, /Dev-Projects/Forty-Eta/_src/sass/helpers/_js-breakpoints.scss */
   head {
     font-family: 'mq-mini'; } }
 
 @media (min-width: 37.5em) {
-  /* line 15, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_js-breakpoints.scss */
+  /* line 15, /Dev-Projects/Forty-Eta/_src/sass/helpers/_js-breakpoints.scss */
   head {
     font-family: 'mq-small'; } }
 
 @media (min-width: 48em) {
-  /* line 15, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_js-breakpoints.scss */
+  /* line 15, /Dev-Projects/Forty-Eta/_src/sass/helpers/_js-breakpoints.scss */
   head {
     font-family: 'mq-medium'; } }
 
 @media (min-width: 60em) {
-  /* line 15, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_js-breakpoints.scss */
+  /* line 15, /Dev-Projects/Forty-Eta/_src/sass/helpers/_js-breakpoints.scss */
   head {
     font-family: 'mq-large'; } }
 
 @media (min-width: 76.25em) {
-  /* line 15, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_js-breakpoints.scss */
+  /* line 15, /Dev-Projects/Forty-Eta/_src/sass/helpers/_js-breakpoints.scss */
   head {
     font-family: 'mq-xlarge'; } }
 
 @media (min-width: 90em) {
-  /* line 15, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_js-breakpoints.scss */
+  /* line 15, /Dev-Projects/Forty-Eta/_src/sass/helpers/_js-breakpoints.scss */
   head {
     font-family: 'mq-xxlarge'; } }
 
 @media (min-width: 102.5em) {
-  /* line 15, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_js-breakpoints.scss */
+  /* line 15, /Dev-Projects/Forty-Eta/_src/sass/helpers/_js-breakpoints.scss */
   head {
     font-family: 'mq-xxxlarge'; } }
 
-/* line 55, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_js-breakpoints.scss */
+/* line 55, /Dev-Projects/Forty-Eta/_src/sass/helpers/_js-breakpoints.scss */
 head:after {
   font-family: mq-tiny, mq-mini, mq-small, mq-medium, mq-large, mq-xlarge, mq-xxlarge, mq-xxxlarge; }
 
@@ -215,7 +215,7 @@ head:after {
   font-weight: normal;
   font-style: normal; }
 
-/* line 90, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_fonts.scss */
+/* line 90, /Dev-Projects/Forty-Eta/_src/sass/helpers/_fonts.scss */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "icon-font" !important;
   width: 1em;
@@ -229,11 +229,11 @@ head:after {
   line-height: 1em;
   speak: none; }
 
-/* line 120, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_fonts.scss */
+/* line 120, /Dev-Projects/Forty-Eta/_src/sass/helpers/_fonts.scss */
 .icon-example:before {
   content: '\e800'; }
 
-/* line 20, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_utilities.scss */
+/* line 20, /Dev-Projects/Forty-Eta/_src/sass/helpers/_utilities.scss */
 .browse-happy p {
   display: block;
   top: 50%;
@@ -242,7 +242,7 @@ head:after {
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%); }
 
-/* line 44, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_utilities.scss */
+/* line 44, /Dev-Projects/Forty-Eta/_src/sass/helpers/_utilities.scss */
 .visually-hidden {
   margin: -1px;
   padding: 0;
@@ -253,13 +253,13 @@ head:after {
   clip: rect(0, 0, 0, 0);
   position: absolute; }
 
-/* line 64, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_utilities.scss */
+/* line 64, /Dev-Projects/Forty-Eta/_src/sass/helpers/_utilities.scss */
 .gform_wrapper ul {
   list-style: none;
   padding: 0;
   margin: 0; }
 
-/* line 72, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_utilities.scss */
+/* line 72, /Dev-Projects/Forty-Eta/_src/sass/helpers/_utilities.scss */
 input[type="submit"], .gform_wrapper input[type="submit"] {
   background: transparent;
   outline: none;
@@ -276,7 +276,7 @@ input[type="submit"], .gform_wrapper input[type="submit"] {
   font-weight: normal;
   font-style: normal; }
 
-/* line 17, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_symbols.scss */
+/* line 17, /Dev-Projects/Forty-Eta/_src/sass/helpers/_symbols.scss */
 .sample-symbols .symbol-one:before, .sample-symbols .symbol-two:before {
   font-family: "symbols";
   width: 1em;
@@ -290,7 +290,7 @@ input[type="submit"], .gform_wrapper input[type="submit"] {
   line-height: 1em;
   speak: none; }
 
-/* line 32, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_symbols.scss */
+/* line 32, /Dev-Projects/Forty-Eta/_src/sass/helpers/_symbols.scss */
 .symbol:before {
   font-family: "symbols";
   width: 1em;
@@ -304,31 +304,31 @@ input[type="submit"], .gform_wrapper input[type="submit"] {
   line-height: 1em;
   speak: none; }
 
-/* line 60, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_symbols.scss */
+/* line 60, /Dev-Projects/Forty-Eta/_src/sass/helpers/_symbols.scss */
 .s-book:before {
   content: "\E001"; }
 
-/* line 61, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_symbols.scss */
+/* line 61, /Dev-Projects/Forty-Eta/_src/sass/helpers/_symbols.scss */
 .s-briefcase:before {
   content: "\E002"; }
 
-/* line 35, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_sprites.scss */
+/* line 35, /Dev-Projects/Forty-Eta/_src/sass/helpers/_sprites.scss */
 .sprite, .sample-sprites .icon-one:before, .sample-sprites .icon-two:before {
   background-image: url('assets/images/sprites/sprite.png'); }
 
-@media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
-  /* line 40, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_sprites.scss */
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+  /* line 40, /Dev-Projects/Forty-Eta/_src/sass/helpers/_sprites.scss */
   .sprite, .sample-sprites .icon-one:before, .sample-sprites .icon-two:before {
     background-image: url('assets/images/sprites/sprite@2x.png');
     background-size: 198px 104px; } }
 
-/* line 76, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/_extends.scss */
+/* line 76, /Dev-Projects/Forty-Eta/_src/sass/helpers/_extends.scss */
 .wysiwyg h2, .wysiwyg h3, .wysiwyg h4 {
   font-weight: 300;
   text-transform: uppercase; }
 
 @media print {
-  /* line 11, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_print.scss */
+  /* line 11, /Dev-Projects/Forty-Eta/_src/sass/base/_print.scss */
   *, *:before, *:after {
     background: transparent !important;
     color: #000 !important;
@@ -336,43 +336,43 @@ input[type="submit"], .gform_wrapper input[type="submit"] {
     -webkit-filter: none !important;
             filter: none !important;
     -ms-filter: none !important; }
-  /* line 20, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_print.scss */
+  /* line 20, /Dev-Projects/Forty-Eta/_src/sass/base/_print.scss */
   a, a:visited {
     text-decoration: underline; }
-  /* line 24, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_print.scss */
+  /* line 24, /Dev-Projects/Forty-Eta/_src/sass/base/_print.scss */
   a[href]:after {
     content: " (" attr(href) ")"; }
-  /* line 28, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_print.scss */
+  /* line 28, /Dev-Projects/Forty-Eta/_src/sass/base/_print.scss */
   abbr[title]:after {
     content: " (" attr(title) ")"; }
-  /* line 34, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_print.scss */
+  /* line 34, /Dev-Projects/Forty-Eta/_src/sass/base/_print.scss */
   a[href^="javascript:"]:after, a[href^="#"]:after {
     content: ""; }
-  /* line 39, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_print.scss */
+  /* line 39, /Dev-Projects/Forty-Eta/_src/sass/base/_print.scss */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid; }
-  /* line 44, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_print.scss */
+  /* line 44, /Dev-Projects/Forty-Eta/_src/sass/base/_print.scss */
   thead {
     display: table-header-group; }
-  /* line 49, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_print.scss */
+  /* line 49, /Dev-Projects/Forty-Eta/_src/sass/base/_print.scss */
   tr, img {
     page-break-inside: avoid; }
-  /* line 53, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_print.scss */
+  /* line 53, /Dev-Projects/Forty-Eta/_src/sass/base/_print.scss */
   img {
     max-width: 100% !important; }
   @page {
     margin: 0.5cm; }
 
-  /* line 63, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_print.scss */
+  /* line 63, /Dev-Projects/Forty-Eta/_src/sass/base/_print.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3; }
-  /* line 69, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_print.scss */
+  /* line 69, /Dev-Projects/Forty-Eta/_src/sass/base/_print.scss */
   h2, h3 {
     page-break-after: avoid; } }
 
-/* line 9, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_typography.scss */
+/* line 9, /Dev-Projects/Forty-Eta/_src/sass/base/_typography.scss */
 ::-moz-selection {
   background: #777;
   color: #fff;
@@ -382,11 +382,11 @@ input[type="submit"], .gform_wrapper input[type="submit"] {
   color: #fff;
   text-shadow: none; }
 
-/* line 19, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_typography.scss */
+/* line 19, /Dev-Projects/Forty-Eta/_src/sass/base/_typography.scss */
 html {
   font-size: 62.5%; }
 
-/* line 23, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_typography.scss */
+/* line 23, /Dev-Projects/Forty-Eta/_src/sass/base/_typography.scss */
 body {
   background: #fff;
   color: #000;
@@ -395,38 +395,38 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
 
-/* line 30, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_typography.scss */
+/* line 30, /Dev-Projects/Forty-Eta/_src/sass/base/_typography.scss */
 a {
   color: #000;
   text-decoration: none; }
-  /* line 35, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_typography.scss */
+  /* line 35, /Dev-Projects/Forty-Eta/_src/sass/base/_typography.scss */
   a:hover, a:focus, a:active {
     color: #555; }
-  /* line 38, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_typography.scss */
+  /* line 38, /Dev-Projects/Forty-Eta/_src/sass/base/_typography.scss */
   a:focus {
     outline: none; }
 
-/* line 52, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_typography.scss */
+/* line 52, /Dev-Projects/Forty-Eta/_src/sass/base/_typography.scss */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1; }
-  /* line 55, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_typography.scss */
+  /* line 55, /Dev-Projects/Forty-Eta/_src/sass/base/_typography.scss */
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: #000; }
 
-/* line 66, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_typography.scss */
+/* line 66, /Dev-Projects/Forty-Eta/_src/sass/base/_typography.scss */
 p, dl, address {
   font-size: 1.6rem; }
 
-/* line 74, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_typography.scss */
+/* line 74, /Dev-Projects/Forty-Eta/_src/sass/base/_typography.scss */
 p, li, dt, dd {
   font-weight: normal;
   font-style: normal; }
 
-/* line 79, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_typography.scss */
+/* line 79, /Dev-Projects/Forty-Eta/_src/sass/base/_typography.scss */
 li {
   line-height: 1; }
 
-/* line 12, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_forms.scss */
+/* line 12, /Dev-Projects/Forty-Eta/_src/sass/base/_forms.scss */
 input, textarea, select {
   outline: none;
   border-radius: 0;
@@ -436,103 +436,103 @@ input, textarea, select {
   width: 100%;
   font-size: 13px; }
 
-/* line 30, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_forms.scss */
+/* line 30, /Dev-Projects/Forty-Eta/_src/sass/base/_forms.scss */
 input[type="text"], input[type="time"], input[type="url"], input[type="email"], input[type="password"], input[type="button"], input[type="submit"], textarea {
   -webkit-appearance: none;
   -moz-appearance: none; }
 
-/* line 38, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_forms.scss */
+/* line 38, /Dev-Projects/Forty-Eta/_src/sass/base/_forms.scss */
 input, textarea, label {
   color: #000; }
 
-/* line 43, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_forms.scss */
+/* line 43, /Dev-Projects/Forty-Eta/_src/sass/base/_forms.scss */
 select {
   background: #fff;
   height: 30px;
   padding: 5px 10px; }
 
-/* line 50, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_forms.scss */
+/* line 50, /Dev-Projects/Forty-Eta/_src/sass/base/_forms.scss */
 select[multiple] {
   height: auto; }
 
-/* line 55, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_forms.scss */
+/* line 55, /Dev-Projects/Forty-Eta/_src/sass/base/_forms.scss */
 input[type="checkbox"] {
   vertical-align: bottom; }
 
-/* line 60, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_forms.scss */
+/* line 60, /Dev-Projects/Forty-Eta/_src/sass/base/_forms.scss */
 input[type="radio"] {
   vertical-align: text-bottom; }
 
-/* line 65, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_forms.scss */
+/* line 65, /Dev-Projects/Forty-Eta/_src/sass/base/_forms.scss */
 label {
   font-weight: 400; }
 
-/* line 71, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_forms.scss */
+/* line 71, /Dev-Projects/Forty-Eta/_src/sass/base/_forms.scss */
 input:focus, textarea:focus {
   outline: none;
   border-color: #000;
   background: #444;
   color: #fff; }
 
-/* line 79, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_forms.scss */
+/* line 79, /Dev-Projects/Forty-Eta/_src/sass/base/_forms.scss */
 input[type="submit"] {
   border-radius: 0;
   height: auto; }
 
-/* line 88, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_forms.scss */
+/* line 88, /Dev-Projects/Forty-Eta/_src/sass/base/_forms.scss */
 input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0; }
 
-/* line 93, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_forms.scss */
+/* line 93, /Dev-Projects/Forty-Eta/_src/sass/base/_forms.scss */
 input[type=number] {
   -moz-appearance: textfield; }
 
-/* line 101, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_forms.scss */
+/* line 101, /Dev-Projects/Forty-Eta/_src/sass/base/_forms.scss */
 .placeholder {
   color: #000; }
 
-/* line 3, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/mixins/_placeholder.scss */
+/* line 3, /Dev-Projects/Forty-Eta/_src/sass/helpers/mixins/_placeholder.scss */
 input::-webkit-input-placeholder {
   color: #000; }
-/* line 6, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/mixins/_placeholder.scss */
+/* line 6, /Dev-Projects/Forty-Eta/_src/sass/helpers/mixins/_placeholder.scss */
 input:-moz-placeholder {
   color: #000; }
-/* line 9, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/mixins/_placeholder.scss */
+/* line 9, /Dev-Projects/Forty-Eta/_src/sass/helpers/mixins/_placeholder.scss */
 input::-moz-placeholder {
   color: #000; }
-/* line 12, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/mixins/_placeholder.scss */
+/* line 12, /Dev-Projects/Forty-Eta/_src/sass/helpers/mixins/_placeholder.scss */
 input:-ms-input-placeholder {
   color: #000; }
 
-/* line 3, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/mixins/_placeholder.scss */
+/* line 3, /Dev-Projects/Forty-Eta/_src/sass/helpers/mixins/_placeholder.scss */
 input:focus::-webkit-input-placeholder {
   color: blue; }
-/* line 6, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/mixins/_placeholder.scss */
+/* line 6, /Dev-Projects/Forty-Eta/_src/sass/helpers/mixins/_placeholder.scss */
 input:focus:-moz-placeholder {
   color: blue; }
-/* line 9, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/mixins/_placeholder.scss */
+/* line 9, /Dev-Projects/Forty-Eta/_src/sass/helpers/mixins/_placeholder.scss */
 input:focus::-moz-placeholder {
   color: blue; }
-/* line 12, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/helpers/mixins/_placeholder.scss */
+/* line 12, /Dev-Projects/Forty-Eta/_src/sass/helpers/mixins/_placeholder.scss */
 input:focus:-ms-input-placeholder {
   color: blue; }
 
-/* line 123, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_forms.scss */
+/* line 123, /Dev-Projects/Forty-Eta/_src/sass/base/_forms.scss */
 button::-moz-focus-inner {
   padding: 0;
   border: 0; }
 
-/* line 11, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_cms-wordpress.scss */
+/* line 11, /Dev-Projects/Forty-Eta/_src/sass/base/_cms-wordpress.scss */
 .alignnone {
   margin: 0; }
 
-/* line 16, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_cms-wordpress.scss */
+/* line 16, /Dev-Projects/Forty-Eta/_src/sass/base/_cms-wordpress.scss */
 .aligncenter, div.aligncenter {
   display: block;
   margin: 5px auto 0 auto; }
 
-/* line 21, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_cms-wordpress.scss */
+/* line 21, /Dev-Projects/Forty-Eta/_src/sass/base/_cms-wordpress.scss */
 .alignright {
   float: none; }
   @media (min-width: 30em) {
@@ -540,7 +540,7 @@ button::-moz-focus-inner {
       float: right;
       margin: 5px 0 20px 20px; } }
 
-/* line 29, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_cms-wordpress.scss */
+/* line 29, /Dev-Projects/Forty-Eta/_src/sass/base/_cms-wordpress.scss */
 .alignleft {
   float: none; }
   @media (min-width: 30em) {
@@ -548,7 +548,7 @@ button::-moz-focus-inner {
       float: left;
       margin: 5px 20px 20px 0; } }
 
-/* line 37, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_cms-wordpress.scss */
+/* line 37, /Dev-Projects/Forty-Eta/_src/sass/base/_cms-wordpress.scss */
 .aligncenter {
   display: block;
   margin: 5px auto 0 auto; }
@@ -563,7 +563,7 @@ button::-moz-focus-inner {
 @media (min-width: 30em) {
   a img.alignright {
     margin: 5px 0 20px 20px; } }
-/* line 65, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_cms-wordpress.scss */
+/* line 65, /Dev-Projects/Forty-Eta/_src/sass/base/_cms-wordpress.scss */
 a img.aligncenter {
   width: auto;
   display: block;
@@ -573,17 +573,17 @@ a img.aligncenter {
   a img.alignnone {
     width: auto; } }
 
-/* line 81, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_cms-wordpress.scss */
+/* line 81, /Dev-Projects/Forty-Eta/_src/sass/base/_cms-wordpress.scss */
 .wp-caption {
   width: 100% !important;
   max-width: 100%;
   padding: 0 0 10px;
   text-align: left;
   margin-bottom: 20px; }
-  /* line 89, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_cms-wordpress.scss */
+  /* line 89, /Dev-Projects/Forty-Eta/_src/sass/base/_cms-wordpress.scss */
   .wp-caption a, .wp-caption a:hover {
     border-bottom: 0 !important; }
-  /* line 93, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_cms-wordpress.scss */
+  /* line 93, /Dev-Projects/Forty-Eta/_src/sass/base/_cms-wordpress.scss */
   .wp-caption img {
     border: 0 none;
     height: auto;
@@ -607,7 +607,7 @@ a img.aligncenter {
     .wp-caption.alignleft, .wp-caption.alignright {
       width: 100%;
       max-width: 340px; } }
-  /* line 131, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_cms-wordpress.scss */
+  /* line 131, /Dev-Projects/Forty-Eta/_src/sass/base/_cms-wordpress.scss */
   .wp-caption .wp-caption-text {
     font-weight: normal;
     font-size: 12;
@@ -617,18 +617,19 @@ a img.aligncenter {
     margin: 0;
     border-bottom: 1px solid rgba(192, 192, 193, 0.2); }
 
-/* line 142, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/base/_cms-wordpress.scss */
+/* line 142, /Dev-Projects/Forty-Eta/_src/sass/base/_cms-wordpress.scss */
 .aligncenter.wp-caption {
   width: 100% !important; }
 
-/* line 7, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_fluidbox.scss */
+/* line 7, /Dev-Projects/Forty-Eta/_src/sass/vendor/_fluidbox.scss */
 .fluidbox {
   outline: none; }
 
-/* line 11, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_fluidbox.scss */
+/* line 11, /Dev-Projects/Forty-Eta/_src/sass/vendor/_fluidbox.scss */
 .fluidbox-overlay {
   cursor: pointer;
   cursor: -webkit-zoom-out;
+  cursor: -moz-zoom-out;
   opacity: 0;
   position: fixed;
   top: 0;
@@ -638,7 +639,7 @@ a img.aligncenter {
   -webkit-transition: all .25s ease-in-out;
           transition: all .25s ease-in-out; }
 
-/* line 24, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_fluidbox.scss */
+/* line 24, /Dev-Projects/Forty-Eta/_src/sass/vendor/_fluidbox.scss */
 .fluidbox-wrap {
   background-position: center center;
   background-size: cover;
@@ -647,7 +648,7 @@ a img.aligncenter {
   -webkit-transition: all .25s ease-in-out;
           transition: all .25s ease-in-out; }
 
-/* line 32, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_fluidbox.scss */
+/* line 32, /Dev-Projects/Forty-Eta/_src/sass/vendor/_fluidbox.scss */
 .fluidbox-ghost {
   background-size: cover;
   background-position: center center;
@@ -655,14 +656,14 @@ a img.aligncenter {
   -webkit-transition: all .25s ease-in-out;
           transition: all .25s ease-in-out; }
 
-/* line 39, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_fluidbox.scss */
+/* line 39, /Dev-Projects/Forty-Eta/_src/sass/vendor/_fluidbox.scss */
 .fluidbox-closed .fluidbox-ghost {
   -webkit-transition-property: top, left, opacity, -webkit-transform;
           transition-property: top, left, opacity, transform;
   -webkit-transition-delay: 0, 0, .25s, 0;
           transition-delay: 0, 0, .25s, 0; }
 
-/* line 44, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_fluidbox.scss */
+/* line 44, /Dev-Projects/Forty-Eta/_src/sass/vendor/_fluidbox.scss */
 .fluidbox-closed .fluidbox-wrap img {
   -webkit-transition-property: opacity;
           transition-property: opacity;
@@ -671,34 +672,34 @@ a img.aligncenter {
   -webkit-transition-duration: 0s;
           transition-duration: 0s; }
 
-/* line 16, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+/* line 16, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
 .gform_wrapper {
   margin-top: 2.5em !important; }
   @media (min-width: 48em) {
     .gform_wrapper {
       margin: 0 auto;
       width: 100%; } }
-  /* line 24, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 24, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper ul {
     margin-left: 0; }
-    /* line 28, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+    /* line 28, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
     .gform_wrapper ul li {
       font-size: 0.875em;
       margin-bottom: 10px; }
       @media (min-width: 48em) {
         .gform_wrapper ul li {
           margin-bottom: 20px; } }
-  /* line 38, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 38, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper form {
     position: relative; }
-  /* line 42, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 42, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper label {
     display: inline-block;
     margin-bottom: 5px;
     font-weight: 500;
     color: #000;
     font-size: 0.875em; }
-  /* line 51, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 51, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper input[type="submit"] {
     display: inline-block;
     width: auto;
@@ -711,88 +712,88 @@ a img.aligncenter {
     font-size: 0.8125em;
     color: #fff;
     line-height: 1.5em; }
-    /* line 63, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+    /* line 63, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
     .gform_wrapper input[type="submit"]:hover {
       background-color: #555; }
-  /* line 72, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 72, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper .gfield.gsection {
     margin: 2em 0 1em;
     padding-bottom: .5em;
     border-bottom: 1px solid grey; }
-    /* line 81, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+    /* line 81, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
     .gform_wrapper .gfield.gsection h1, .gform_wrapper .gfield.gsection h2, .gform_wrapper .gfield.gsection h3, .gform_wrapper .gfield.gsection h4, .gform_wrapper .gfield.gsection h5 {
       font-size: 20px;
       font-weight: 800;
       text-align: left;
       padding: 0;
       margin: 0; }
-  /* line 95, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 95, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper .gform_heading h1, .gform_wrapper .gform_heading h2, .gform_wrapper .gform_heading h3, .gform_wrapper .gform_heading h4, .gform_wrapper .gform_heading h5 {
     padding-left: 0;
     margin-bottom: 20px; }
-  /* line 101, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 101, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper label .gfield_required {
     color: red;
     padding-left: 5px; }
-  /* line 110, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 110, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper li.hidden {
     display: none !important; }
-  /* line 114, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 114, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper input.medium {
     width: 100%; }
     @media (min-width: 30em) {
       .gform_wrapper input.medium {
         width: 50%; } }
-  /* line 121, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 121, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper input.small {
     width: 50%; }
     @media (min-width: 30em) {
       .gform_wrapper input.small {
         width: 25%; } }
-  /* line 129, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 129, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper li.auto-width input, .gform_wrapper li.auto-width select, .gform_wrapper li.auto-width textarea {
     width: auto; }
-  /* line 134, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 134, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper li.hidden-label > label {
     display: none; }
-  /* line 138, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 138, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper li.extra-spacing-top {
     margin-top: 2.5em; }
-  /* line 142, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 142, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper li.extra-spacing-bottom {
     margin-bottom: 2.5em; }
-  /* line 146, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 146, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper .gfield {
     clear: both; }
-  /* line 155, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 155, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper .gfield_radio, .gform_wrapper .gfield_checkbox {
     margin-bottom: 20px; }
-    /* line 158, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+    /* line 158, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
     .gform_wrapper .gfield_radio li, .gform_wrapper .gfield_checkbox li {
       margin-bottom: 5px;
       padding-left: 25px;
       position: relative; }
-      /* line 163, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+      /* line 163, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
       .gform_wrapper .gfield_radio li label, .gform_wrapper .gfield_checkbox li label {
         font-weight: 400;
         line-height: 18px;
         position: relative;
         top: 3px; }
-      /* line 170, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+      /* line 170, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
       .gform_wrapper .gfield_radio li input, .gform_wrapper .gfield_checkbox li input {
         position: absolute;
         top: 8px;
         left: 0;
         width: auto;
         margin-right: 10px; }
-  /* line 185, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 185, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper .list-spacing .gfield_radio li, .gform_wrapper .list-spacing .gfield_checkbox li {
     margin-bottom: 15px; }
-  /* line 194, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 194, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper .list-indent .gfield_radio, .gform_wrapper .list-indent .gfield_checkbox {
     margin-left: 1.875em;
     padding-left: 0; }
-  /* line 207, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 207, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper .ginput_complex label {
     font-size: 0.8125em;
     margin: 4px 0 5px;
@@ -840,22 +841,22 @@ a img.aligncenter {
     .gform_wrapper li.gfield.gf_right_third {
       float: right;
       clear: right !important; } }
-  /* line 305, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 305, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper .gfield_date_dropdown_month, .gform_wrapper .gfield_date_dropdown_day, .gform_wrapper .gfield_date_dropdown_year {
     margin-right: 6px;
     vertical-align: top;
     display: -moz-inline-stack;
     display: inline-block;
     zoom: 1; }
-  /* line 320, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 320, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper .gfield_error input, .gform_wrapper .gfield_error textarea {
     border-color: red;
     background-color: rgba(255, 0, 0, 0.75);
     color: #fff; }
-  /* line 328, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 328, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper .gfield_error .gfield_radio label, .gform_wrapper .gfield_error .gfield_checkbox label {
     color: red; }
-  /* line 335, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 335, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper .validation_error {
     background: red;
     padding: 15px 20px;
@@ -864,20 +865,20 @@ a img.aligncenter {
     color: #fff;
     font-size: 0.875em;
     line-height: 1.5em; }
-  /* line 346, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 346, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper .validation_message {
     padding: 5px 0;
     color: #DD3F3F;
     display: none; }
-  /* line 352, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+  /* line 352, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
   .gform_wrapper .instruction {
     font-size: 12px; }
 
-/* line 371, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+/* line 371, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
 .gform_validation_container {
   display: none; }
 
-/* line 375, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+/* line 375, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
 .gform_confirmation_wrapper {
   background: red;
   margin: 2em 0;
@@ -886,19 +887,19 @@ a img.aligncenter {
   font-size: 17px;
   color: #FFF; }
 
-/* line 384, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+/* line 384, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
 .gform_confirmation_message {
   font-size: .8em;
   line-height: 1.75em;
   padding: 0 20px; }
 
-/* line 390, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/vendor/_gravity-forms.scss */
+/* line 390, /Dev-Projects/Forty-Eta/_src/sass/vendor/_gravity-forms.scss */
 .gfield_description {
   font-size: 12px;
   font-weight: 700;
   line-height: 1.1em; }
 
-/* line 13, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/modules/_browse-happy.scss */
+/* line 13, /Dev-Projects/Forty-Eta/_src/sass/modules/_browse-happy.scss */
 .browse-happy {
   background-color: transparent;
   background-color: rgba(119, 119, 119, 0.97);
@@ -910,7 +911,7 @@ a img.aligncenter {
   width: 100%;
   height: 100%;
   z-index: 800; }
-  /* line 22, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/modules/_browse-happy.scss */
+  /* line 22, /Dev-Projects/Forty-Eta/_src/sass/modules/_browse-happy.scss */
   .browse-happy p {
     display: block;
     width: 800px;
@@ -919,17 +920,17 @@ a img.aligncenter {
     line-height: 1.3em;
     text-align: center;
     color: #fff; }
-    /* line 32, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/modules/_browse-happy.scss */
+    /* line 32, /Dev-Projects/Forty-Eta/_src/sass/modules/_browse-happy.scss */
     .browse-happy p a {
       display: inline-block;
       color: #59b6fd;
       line-height: 1em;
       border-bottom: 1px solid rgba(89, 182, 253, 0.2); }
-      /* line 38, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/modules/_browse-happy.scss */
+      /* line 38, /Dev-Projects/Forty-Eta/_src/sass/modules/_browse-happy.scss */
       .browse-happy p a:hover {
         color: rgba(89, 182, 253, 0.8); }
 
-/* line 10, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/app/_sample.scss */
+/* line 10, /Dev-Projects/Forty-Eta/_src/sass/app/_sample.scss */
 .sample-header {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
@@ -939,22 +940,22 @@ a img.aligncenter {
   padding: 3rem;
   margin-bottom: 5rem; }
 
-/* line 21, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/app/_sample.scss */
+/* line 21, /Dev-Projects/Forty-Eta/_src/sass/app/_sample.scss */
 .sample-sprites, .sample-symbols {
   width: 100%;
   max-width: 600px;
   margin: 0 auto 4rem;
   padding: 4rem;
   border: 1px solid rgba(0, 0, 0, 0.2); }
-  /* line 28, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/app/_sample.scss */
+  /* line 28, /Dev-Projects/Forty-Eta/_src/sass/app/_sample.scss */
   .sample-sprites i, .sample-symbols i {
     display: block;
     margin-bottom: 3rem; }
-    /* line 31, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/app/_sample.scss */
+    /* line 31, /Dev-Projects/Forty-Eta/_src/sass/app/_sample.scss */
     .sample-sprites i:last-of-type, .sample-symbols i:last-of-type {
       margin-bottom: 0; }
 
-/* line 39, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/app/_sample.scss */
+/* line 39, /Dev-Projects/Forty-Eta/_src/sass/app/_sample.scss */
 .sample-sprites .icon-one:before {
   content: "";
   background-position: -2px -2px;
@@ -963,7 +964,7 @@ a img.aligncenter {
   display: block;
   width: 100px;
   height: 100px; }
-/* line 46, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/app/_sample.scss */
+/* line 46, /Dev-Projects/Forty-Eta/_src/sass/app/_sample.scss */
 .sample-sprites .icon-two:before {
   content: "";
   background-position: -106px -2px;
@@ -973,16 +974,16 @@ a img.aligncenter {
   width: 90px;
   height: 74px; }
 
-/* line 55, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/app/_sample.scss */
+/* line 55, /Dev-Projects/Forty-Eta/_src/sass/app/_sample.scss */
 .sample-symbols .symbol-one {
   font-size: 3rem; }
-  /* line 57, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/app/_sample.scss */
+  /* line 57, /Dev-Projects/Forty-Eta/_src/sass/app/_sample.scss */
   .sample-symbols .symbol-one:before {
     content: '\E001'; }
-/* line 61, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/app/_sample.scss */
+/* line 61, /Dev-Projects/Forty-Eta/_src/sass/app/_sample.scss */
 .sample-symbols .symbol-two {
   font-size: 3rem; }
-  /* line 63, /Users/ckhicks/Git/40d-gulp-starter/_src/sass/app/_sample.scss */
+  /* line 63, /Dev-Projects/Forty-Eta/_src/sass/app/_sample.scss */
   .sample-symbols .symbol-two:before {
     content: '\E002';
     color: red; }

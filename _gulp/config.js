@@ -12,8 +12,7 @@ var _source = {
 	styles:   sourceDir + '/sass/**/*.{sass,scss}',
 	symbols:  sourceDir + '/symbols/*.svg',
 	tpl:      sourceDir + '/templates/',
-	php:      appDir + '**/*.php',
-	html:      appDir + '**/*.html'
+	markup:   appDir + '**/*.{php,html}'
 };
 
 // Assets Directory
@@ -83,7 +82,7 @@ module.exports = {
 		destFont: _assets.symbols,
 		destSass: _source.root + '/sass/helpers',
 		settings: {
-			fontName: 'Symbols',
+			fontName: 'symbols',
 			appendCodepoints: false,
 			centerHorizontally: true,
 			normalize: true,
@@ -98,11 +97,8 @@ module.exports = {
 		src: _source.images,
 		dest: _assets.images
 	},
-	php: {
-		src: _source.php
-	},
-	html: {
-		src: _source.html
+	markup: {
+		src: _source.markup
 	},
 	watch: {
 		src: _source.root,
