@@ -44,8 +44,7 @@ module.exports = {
 		settings: {
 			indentedSyntax: true,
 			errLogToConsole: true,
-			style: 'expanded',
-			sourceComments: 'normal'
+			style: 'nested'
 		},
 		globbing: {
 			extensions: ['.scss', '.sass']
