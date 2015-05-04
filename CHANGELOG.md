@@ -1,4 +1,10 @@
 ## Changelog
+**05/4/2015**
+* Updated Gulp packages to latest version.
+* Added in static markup templating under _src/static
+* Moved _src/templates to be under _src/symbols/tpl as they're symbol templates only.
+* Renamed markup watch to be php only.
+
 **03/31/2015**
 * Updated MQ Sync along with necessary modules and removed unecessary ones.
 * Updated JS Breakpoints Sass module to setup the media query order for MQ Sync.
