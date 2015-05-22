@@ -6,7 +6,7 @@ var gulp         = require('gulp'),
 		config       = require('../config'),
 		autoprefixer = require('gulp-autoprefixer'),
 		livereload   = require('gulp-livereload'),
-	    globbing     = require('gulp-css-globbing');
+		globbing     = require('gulp-css-globbing');
 
 gulp.task('sass', function () {
 	return gulp.src(config.sass.src)
