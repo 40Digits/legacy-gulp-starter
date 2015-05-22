@@ -118,6 +118,18 @@ module.exports = {
 		src: _source.root,
 		dest: _assets.root,
 	},
+	browserSync: {
+		useBrowserSync: false,
+		// See http://www.browsersync.io/docs/options/ for a complete list of configuration options
+		config: {
+			// proxy: 'yourvhostname.dev',
+			server: appDir,
+			open: true,
+			notify: false,
+			reloadOnRestart: true,
+			files: ['**/*.css', assetsDir + '**/*', appDir + '**/*.php']
+		}
+	},
 	production: {
 		cssSrc: appDir + '*.css',
 		cssDest: appDir,

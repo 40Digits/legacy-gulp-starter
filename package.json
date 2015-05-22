@@ -16,9 +16,10 @@
   },
   "browserify-shim": "./_src/js/config/shim.js",
   "devDependencies": {
+    "browser-sync": "^2.7.3",
     "browserify": "^10.0.0",
-    "browserify-shim": "^3.8.6",
     "browserify-ejs": "^0.0.2",
+    "browserify-shim": "^3.8.6",
     "css-sprite": "^0.9.8",
     "gulp": "^3.8.11",
     "gulp-autoprefixer": "^2.2.0",
