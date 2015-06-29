@@ -27,13 +27,13 @@ Eta includes the following tools, tasks, and workflows:
 
 ## Install Eta
 ```bash
-npm install --save gulp-eta
+npm install --save-dev gulp-eta
 ```
 This adds Eta to your `node_modules` directory along with all of its dependencies. See [troubleshooting](https://github.com/40Digits/eta#troubleshooting) section if you run into errors.
 
 ## Install Gulp
 ```bash
-npm install --save gulp
+npm install --save-dev gulp
 ```
 In order to use `gulp` in the root of your app, you need to have a copy of Gulp installed.
 
@@ -108,7 +108,7 @@ Creates static HTML files from HTML partials
 
 Watches for changes, and when a file is added, removed, or edited, it runs the necessary task. (Defaults: `browserify`, `sass`, `symbols`, `images`, `sprites`)
 
-To add php to your watch task, set `options.sass.php` to `true` in the options when you instantiate eta in your gulpfile.
+To add php to your watch task, set `options.watch.php` to `true` in the options when you instantiate eta in your gulpfile.
 
 
 ### `production`
