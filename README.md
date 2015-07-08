@@ -16,7 +16,6 @@ Eta includes the following tools, tasks, and workflows:
 - Error handling in the console [and in Notification Center](https://github.com/mikaelbr/gulp-notify)
 - Compression task for production builds (CSS + JS)
 - [BrowserSync](http://www.browsersync.io/)
-- [LiveReload](https://www.npmjs.com/package/gulp-livereload)
 
 ## Requirements
 
@@ -58,15 +57,72 @@ Check out the [options](NEED LINK) that you can set for the tasks.
 ```bash
 gulp
 ```
-This will run the `default` gulp task, which has the following task dependencies: `['symbols', 'sass', 'images', 'sprites', 'browserify', 'watch']`.
+This will run the `default` gulp task, which has the following task dependencies: `['browserSync', 'symbols', 'sass', 'sprites', 'images', 'browserify']`.
 - `symbols` task generates your icon font, preview file, and sass file.
 - `sass` task compiles your sass files.
 - `images` moves image copies from a source folder, performs optimizations, then outputs them into the assets folder.
 - `sprites` task compiles sprite assets into a sprite sheet, and generates a sass file for mixins & variable use.
 - `browserify` compiles all of your CommonJS modules into bundles.
 - `watch` task looks out for changes, and when a file is added, removed, or edited, it runs the necessary task. (Defaults: 'browserify', 'sass', 'symbols', 'images', 'sprites')
+- `browserSync` Starts Browser Sync and watches for changes on compiled assets. The `watch` task runs in tandem to compile the source files which then triggers an update to Browser Sync.
 
-### Tasks
+## Scaffold
+
+Eta uses the scaffold object to handle paths. Below is the default configuration. Override them to meet your needs. `source.root` and `assets.root` are relative to directory of your `gulpfile`.
+
+If you want an `asset` to be in the root of your app (where your gulpfile lives) then set it to `'/'`.
+
+*Note:* Make sure you set up your scaffold before you run `gulp init`.
+
+**Examples:**
+
+If you need your assets folder to live in a `/public` folder:
+
+```javascript
+options.scaffold.assets.root = 'public/assets';
+```
+
+If you want to rename your source folder:
+
+```javascript
+options.scaffold.source.root = 'source';
+```
+
+If you want your CSS files in the root of your app:
+
+```javascript
+options.scaffold.assets.styles = '/';
+```
+
+Defaults:
+```
+config.scaffold = {
+  source: {
+    root:     '_src',
+    images:   'images',
+    scripts:  'js',
+    sprites:  'sprites',
+    styles:   'sass',
+    symbols:  'symbols',
+    static:   'static'
+  },
+  assets: {
+    root:     'assets',
+    images:   'images',
+    sprites:  'images/sprites',
+    scripts:  'js',
+    styles:   'css',
+    symbols:  'fonts/symbols',
+    static:   '/'
+  }
+}
+```
+
+## Tasks
+
+### `init`
+
+Creates a `_src` directory where you have specified for it to go. Make sure that you define your scaffold settings in `gulpfile.js` before you run this so that Eta will create it in the correct place. (Default path is `/_src`)
 
 ### `symbols`
 
@@ -88,10 +144,6 @@ Compiles sprite assets into a sprite sheet, and generates a sass file for mixins
 
 Compiles all of your CommonJS modules into bundles.
 
-### `php`
-
-Watches for changes on PHP files and updates the Live Reload plugin.
-
 ### `minifyCss`
 
 Minifies your compiled stylesheets
@@ -106,9 +158,15 @@ Creates static HTML files from HTML partials
 
 ### `watch`
 
-Watches for changes, and when a file is added, removed, or edited, it runs the necessary task. (Defaults: `browserify`, `sass`, `symbols`, `images`, `sprites`)
+Watches for changes on source files, and when a file is added, removed, or edited, it runs the necessary task. (Defaults: `browserify`, `sass`, `symbols`, `images`, `sprites`)
 
-To add php to your watch task, set `options.watch.php` to `true` in the options when you instantiate eta in your gulpfile.
+### `browserSync`
+
+Starts Browser Sync and runs `watch` in tandem.
+
+Config options:
+
+`options.browserSync.config` (See http://www.browsersync.io/docs/options/ for a complete list of configuration options)
 
 
 ### `production`
