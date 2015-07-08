@@ -16,12 +16,14 @@ var getTask = function(task, config) {
 };
 
 module.exports = function(options) {
+  options = options ? options : {};
   // Set up the configuration for the tasks
   // Passing in the base path for the parent app
   // Merges the default config with the user config
   config = defaultConfig(p.dirname(module.parent.filename), options);
 
   // The Tasks
+  gulp.task('init', getTask('init', config));
   gulp.task('images', getTask('images', config));
   gulp.task('sass', getTask('sass', config));
   gulp.task('sprites', getTask('sprites', config));
