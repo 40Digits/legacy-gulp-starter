@@ -23,7 +23,6 @@ module.exports = function(options) {
 
   // The Tasks
   gulp.task('images', getTask('images', config));
-  gulp.task('php', getTask('php', config));
   gulp.task('sass', getTask('sass', config));
   gulp.task('sprites', getTask('sprites', config));
   gulp.task('static', getTask('static', config));
@@ -33,12 +32,6 @@ module.exports = function(options) {
   gulp.task('minifyCss', ['sass'], getTask('minifyCss', config));
   gulp.task('production', ['minifyCss', 'uglifyJs']);
   gulp.task('default', config.default.tasks);
-
-  if (!!config.watch.php) {
-    gulp.task('watch', ['php'], getTask('watch', config));
-  } else {
-    gulp.task('watch', getTask('watch', config));
-  }
 
   // Expose the tasks for consumption
   return gulp.tasks;
